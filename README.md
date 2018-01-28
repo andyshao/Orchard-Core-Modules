@@ -1,3 +1,37 @@
+# Presented examples
+
+## ModularApplication
+
+The main application which combine all remaining projects together. It contains `_Layout.cshtml` template used by views in modules.
+
+## Module1
+
+Standard ASP.NET MVC project, try route `/Module1/Home/Index`.
+
+## Module2
+
+Project that serves two API endpoint:
+
+* `/hello` displays Hello World message
+* `/info` displays `ShellSettings` dump
+
+## Module3
+
+Another standard ASP.NET MVC project. It remaps default area routing in `Startup.cs` and exposes routes:
+
+* `/FooBar`
+* `/FooBar/About`
+
+It also shows how to change page title via `ViewData`.
+
+## Module4
+
+Razor Pages project with following URL available:
+
+* `/Module4/Index`
+* `/Module4/Aktuality`
+* `/Module4/en/News`
+
 # Orchard Core Samples
 
 A sample web application demonstrating how to build a Modular and Multi-Tenant ASP.NET Core application using the Orchard Core Framework. You can also watch a video providing a step by step demonstration of these samples here https://channel9.msdn.com/Shows/On-NET/Sbastien-Ros-Modular-ASPNET-apps
